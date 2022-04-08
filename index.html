@@ -1,265 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Completed - Bruno</title>
-    <!-- !BOX ICONS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-    <!-- !SCROLL REVEAL -->
-    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-    <!-- !MY STYLESHEET -->
-    <link rel="stylesheet" href="./assets/css/styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seb</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="icon" type="image/x-icon" 
+    href="https://uxwing.com/wp-content/themes/uxwing/download/07-web-app-development/software-engineer.png">
+  <script src="https://kit.fontawesome.com/25dfb2bacb.js" crossorigin="anonymous"></script>
+  <script src="./assets/js/app.js" defer></script>
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
-    <!-- !HEADER -->
-    <header class="header" id="home">
-      <nav class="navbar container">
-        <a href="./index.html" class="logo">Seb.</a>
-        <div class="navbar-buttons">
-          <button type="button" class="button icon-button menu-toggle-button">
-              <i class="bx bx-menu open-icon"></i>
-              <i class="bx bx-x close-icon"></i>
-          </button>
-          <button type="button" class="button icon-button theme-toggle-button">
-            <i class="bx bx-toggle-left theme-off"></i>
-            <i class="bx bx-toggle-right theme-on"></i>
-          </button>
-        </div>
-        <div class="menu">
-            <ul class="list">
-              <li class="list-item">
-                <a href="#about-me" class="list-link">
-                  <span>01</span> About me
-                </a>
-              </li>
-              <li class="list-item">
-                <a href="#portfolio" class="list-link">
-                  <span>02</span> Portfolio
-                </a>
-              </li>
-              <li class="list-item">
-                <a href="#contact" class="list-link">
-                  <span>03</span> Contact
-                </a>
-              </li>
-            </ul>
-        </div>
-      </nav>
-    </header>
-    <!-- !HERO SECTION -->
+  <!-- !HEADER -->
+  <header class="header" id="home">
+    <nav class="navbar container">
+      <a href="./index.html" class="logo">Seb.</a>
+      <div class="navbar-buttons">
+        <button type="button" class="button icon-button menu-toggle-button">
+            <i class="bx bx-menu open-icon"></i>
+            <i class="bx bx-x close-icon"></i>
+        </button>
+        <button type="button" class="button icon-button theme-toggle-button">
+          <i class="bx bx-toggle-left theme-off"></i>
+          <i class="bx bx-toggle-right theme-on"></i>
+        </button>
+      </div>
+      <div class="menu">
+          <ul class="list">
+            <li class="list-item">
+              <a href="#about-me" class="list-link">
+                <span>01</span> About me
+              </a>
+            </li>
+            <li class="list-item">
+              <a href="#portfolio" class="list-link">
+                <span>02</span> Portfolio
+              </a>
+            </li>
+            <li class="list-item">
+              <a href="#cv" class="list-link">
+                <span>03</span> CV
+              </a>
+            </li>
+            <li class="list-item">
+              <a href="#contact" class="list-link">
+                <span>04</span> Contact
+              </a>
+            </li>
+          </ul>
+      </div>
+    </nav>
+  </header>
 
-    <section class="hero section">
+  <section class="hero section">
+    <div class="container">
+      <h1 class="title main-title">
+        Fullstack <span class="has-sparkles-alt">Developer</span>
+      </h1>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about-me section" id="about-me">
+    <div class="container">
+      <div class="section-description d-grid">
+        <div class="scroll-reveal-left">
+          <p class="description">
+            Hello I am <span class="text-bold">Seb</span>. I'm a full stack developer who graduated
+            in web development from the Le Wagon bootcamp in March 2022. 
+          </p>
+        </div>
+        <div class="scroll-reveal-right">
+          <div class="description-image has-sparkles">
+            <img src="./assets/images/LeWagonProfile.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="tech-stack d-grid">
+        <div class="tech-stack-item" data-tooltip="HTML5">
+          <i class="devicon-html5-plain colored"></i>
+        </div>
+        <div class="tech-stack-item" data-tooltip="CSS3">
+          <i class="devicon-css3-plain colored"></i>
+        </div>
+        <div class="tech-stack-item" data-tooltip="JavaScript">
+          <i class="devicon-javascript-plain"></i>
+        </div>
+        <div class="tech-stack-item" data-tooltip="Ruby">
+          <i class="devicon-ruby-plain colored"></i>
+        </div>
+        <div class="tech-stack-item" data-tooltip="Rails">
+          <i class="devicon-rails-plain colored"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO SECTION -->
+    <section class="portfolio section">
       <div class="container">
-        <h1 class="title main-title">
-          Full<span class="inline-image has-sparkles"></span> Developer
-          <br>More text
-          <br>And more tex<span class="has-sparkles-alt">t</span>
-        </h1>
+        <div class="section-title-container">
+          <h2 class="title section-title" id="portfolio">Recent</h2>
+          <div class="section-subtitle-container">
+            <span class="subtitle-number has-sparkles">02</span>
+            <h5 class="title section-subtitle">Projects</h5>
+          </div>
+        </div>
+
+        <div class="portfolio-cards d-grid">
+          <a href="https://www.gbaoe2.net/" class="portfolio-card portfolio-card-1" target="_blank" rel="noopener noreferrer">
+            <div class="card-image">
+              <img src="./assets/images/gbaoe2netscreenshot.png" alt="">
+            </div>
+            <div class="card-heading">
+              <h5 class="card-title">GBAoe2.net</h5>
+              <span class="card-subtitle">Dashboard for the UK Age of Empires 2
+                community to connect through AoE2 games by finding, spectating and discussing games 
+                currently in progress. Solo project.</span>
+            </div>
+          </a>
+          <a href="http://www.supermarkt.live/" class="portfolio-card portfolio-card-2" target="_blank" rel="noopener noreferrer">
+            <div class="card-image">
+              <img src="./assets/images/supermarkt.png" alt="">
+            </div>
+            <div class="card-heading">
+              <h5 class="card-title">Supermarkt</h5>
+              <span class="card-subtitle">Streamline the group shop. Group project @ Le Wagon.</span>
+            </div>
+          </a>
+          <a href="http://myspy807.herokuapp.com/" class="portfolio-card portfolio-card-3" target="_blank" rel="noopener noreferrer">
+            <div class="card-image">
+              <img src="./assets/images/myspy.png" alt="">
+            </div>
+            <div class="card-heading">
+              <h5 class="card-title">MySpy</h5>
+              <span class="card-subtitle">AirBnB clone, but instead of renting flats, you rent secret agents. 
+                Group project @ Le Wagon. <em>Register with a dummy email to get a fully working site</em></span>
+            </div>
+          </a>
+
+          <a href="#" class="portfolio-card portfolio-card-4">
+            <div class="card-image">
+              <img src="./assets/images/neon-style-coming-soon-glowing-background-design_1017-25516.jpeg" alt="">
+            </div>
+            <div class="card-heading">
+              <h5 class="card-title">WhatToWatch</h5>
+              <span class="card-subtitle">A site to create a movie/TV watchlist with a special someone and track 
+                who's been hogging the remote!</span>
+            </div>
+          </a>
+
+          <a href="#" class="portfolio-card portfolio-card-5">
+            <div class="card-image">
+              <img src="./assets/images/neon-style-coming-soon-glowing-background-design_1017-25516.jpeg" alt="">
+            </div>
+            <div class="card-heading">
+              <h5 class="card-title">MyPantry</h5>
+              <span class="card-subtitle">Recipe finder that compares an ingredient list with kitchen inventory & 
+                generates a shopping list of items you need to buy.</span>
+            </div>
+          </a>
+
+          <div class="portfolio-card portfolio-card-6 large-button-container">
+            <a href="#portfolio" class="large-button button-fill">
+              View
+              <br>
+              All
+            </a>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- !ABOUT SECTION -->
-    <section class="about-me section" id="about-me">
+
+
+  <!-- CV SECTION -->
+  <section class="cv section">
+    <div class="container">
+      <div class="section-title-container">
+        <h2 class="title section-title" id="cv">CV</h2>
+        <div class="section-subtitle-container">
+          <span class="subtitle-number has-sparkles">03</span>
+          <h5 class="title section-subtitle"></h5>
+        </div>
+      </div>
+      <img class="cv" src="/assets/images/SN CV April 22.png" alt="">
+    </div>
+  </section>
+
+
+  <!-- CONTACT SECTION -->
+  
+    <section class="get-in-touch section" id="contact">
       <div class="container">
+        <div class="section-title-container">
+          <h2 class="title section-title">Get in </h2>
+          <div class="section-subtitle-container">
+            <span class="subtitle-number has-sparkles">04</span>
+            <h5 class="title section-subtitle">Touch</h5>
+          </div>
+        </div>
 
         <div class="section-description d-grid">
           <div class="scroll-reveal-left">
             <p class="description">
-              Hello I am <span class="text-bold">Seb</span>
+              If you would like to contact me, please fill out the form below, email me on sebnaylor@gmail.com, or message me on LinkedIn
             </p>
           </div>
           <div class="scroll-reveal-right">
             <div class="description-image has-sparkles">
-              <img src="./assets/images/LeWagonProfile.jpg" alt="">
+              <img src="./assets/images/get_in_touch.png" alt="">
             </div>
           </div>
         </div>
 
-        <div class="tech-stack d-grid">
-          <div class="tech-stack-item" data-tooltip="HTML5">
-            <i class="bx bxl-html5"></i>
+    <div class="form-container">
+      <form action="https://getform.io/f/52ac8b63-0b56-4ea7-9489-57c1a04d920b" method="POST" class="contact-form">
+        <div class="input-group">
+          <div class="input">
+            <input type="text" id="name" required name="name">
+            <label for="name" class="input-label">Name
+            <span class="required-field">*</span></label>
           </div>
-          <div class="tech-stack-item" data-tooltip="CSS3">
-            <i class="bx bxl-css3"></i>
-          </div>
-          <div class="tech-stack-item" data-tooltip="JavaScript">
-            <i class="bx bxl-javascript"></i>
-          </div>
+
+          <div class="input">
+          <input type="text" id="email" required name="email">
+          <label for="email" class="input-label">Email
+          <span class="required-field">*</span></label>
         </div>
+        </div>
+
+        <div class="input">
+        <input type="text" id="message" name="message">
+        <label for="message" class="input-label">Message
+        <span class="required-field">*</span></label>
+      </div>
+
+      <button type="submit" class="button form-button button-fill">
+        Send message
+      </button>
+      </form>
+    </div>
       </div>
     </section>
-    <!-- Hi, I'm <span class="text-bold">Bruno</span>, and in my <span class="text-bold">five years</span> as a <span class="text-bold">designer and developer</span>, I have turned hundreds of my client's <span class="text-bold">ideas into reality</span>. Developing and creating beautiful interactive user interfaces is my <span class="text-bold">passion</span>. -->
 
-    <!-- !PORTFOLIO SECTION -->
-      <section class="portfolio section" id="portfolio">
-        <div class="container">
-          <div class="section-title-container">
-            <h2 class="title section-title">Recent</h2>
-            <div class="section-subtitle-container">
-              <span class="subtitle-number has-sparkles">02</span>
-              <h5 class="title section-subtitle">Projects</h5>
-            </div>
-          </div>
+  <!-- FOOTER -->
+  
+  <footer class="footer">
+    <div class="container footer-container">
 
-          <div class="portfolio-cards d-grid">
-            <a href="#" class="portfolio-card portfolio-card-1">
-              <div class="card-image">
-                <img src="./assets/images/mntn.png" alt="">
-              </div>
-              <div class="card-heading">
-                <h5 class="card-title">MNTN</h5>
-                <span class="card-subtitle">Web Design & development</span>
-              </div>
-            </a>
-            <a href="#" class="portfolio-card portfolio-card-2">
-              <div class="card-image">
-                <img src="./assets/images/blockchained.png" alt="">
-              </div>
-              <div class="card-heading">
-                <h5 class="card-title">Blockchained</h5>
-                <span class="card-subtitle">App Design</span>
-              </div>
-            </a>
-            <a href="#" class="portfolio-card portfolio-card-3">
-              <div class="card-image">
-                <img src="./assets/images/recehtok.png" alt="">
-              </div>
-              <div class="card-heading">
-                <h5 class="card-title">Recehtok</h5>
-                <span class="card-subtitle">Development</span>
-              </div>
-            </a>
+    <div class="social-media">
+      <ul class="list">
+        <li class="list-item">
+          <a href="https://github.com/sebnaylor" class="list-link" target="_blank" rel="noopener noreferrer">
+            <i class="bx bxl-github"></i>
+          </a>
+        </li>
+        <li class="list-item">
+          <a href="https://www.linkedin.com/in/seb-naylor/" class="list-link" target="_blank" rel="noopener noreferrer">
+            <i class="bx bxl-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
 
-			<a href="#" class="portfolio-card portfolio-card-4">
-				<div class="card-image">
-				  <img src="./assets/images/landie.png" alt="">
-				</div>
-				<div class="card-heading">
-				  <h5 class="card-title">Landie</h5>
-				  <span class="card-subtitle">Development</span>
-				</div>
-			  </a>
+    <span>&copy; 2022. All rights reserved</span>
 
-			  <a href="#" class="portfolio-card portfolio-card-5">
-				<div class="card-image">
-				  <img src="./assets/images/rsound.png" alt="">
-				</div>
-				<div class="card-heading">
-				  <h5 class="card-title">rSound</h5>
-				  <span class="card-subtitle">Development</span>
-				</div>
-			  </a>
-
-			  <a href="#" class="portfolio-card portfolio-card-5">
-				<div class="card-image">
-				  <img src="./assets/images/rsound.png" alt="">
-				</div>
-				<div class="card-heading">
-				  <h5 class="card-title">rSound</h5>
-				  <span class="card-subtitle">Development</span>
-				</div>
-			  </a>
-
-            <div class="portfolio-card portfolio-card-6 large-button-container">
-              <a href="#" class="large-button button-fill">
-                View
-                <br>
-                All
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-    <!-- !CONTACT SECTION -->
-    
-      <section class="get-in-touch section" id="contact">
-        <div class="container">
-          <div class="section-title-container">
-            <h2 class="title section-title">Get in </h2>
-            <div class="section-subtitle-container">
-              <span class="subtitle-number has-sparkles">02</span>
-              <h5 class="title section-subtitle">Touch</h5>
-            </div>
-          </div>
-
-          <div class="section-description d-grid">
-            <div class="scroll-reveal-left">
-              <p class="description">
-                If <span class="text-bold">you</span> would like to work <span class="text-bold">together
-                </span> on a <span class="text-bold">project</span>, please fill out the <span class="text-bold">
-                  form</span> below. I can't wait to turn your <span class="text-bold">ideas</span> into 
-                  <span class="text-bold">reality</span>!
-              </p>
-            </div>
-            <div class="scroll-reveal-right">
-              <div class="description-image has-sparkles">
-                <img src="./assets/images/get_in_touch.png" alt="">
-              </div>
-            </div>
-          </div>
-
-		  <div class="form-container">
-			  <form action="" class="contact-form">
-				  <div class="input-group">
-					  <div class="input">
-						  <input type="text" id="name" required>
-						  <label for="name" class="input-label">Name
-						  <span class="required-field">*</span></label>
-					  </div>
-
-					  <div class="input">
-						<input type="text" id="email" required>
-						<label for="email" class="input-label">Email
-						<span class="required-field">*</span></label>
-					</div>
-				  </div>
-
-				  <div class="input">
-					<input type="text" id="message">
-					<label for="message" class="input-label">Message
-					<span class="required-field">*</span></label>
-				</div>
-
-				<button type="submit" class="button form-button button-fill">
-					Send message
-				</button>
-			  </form>
-		  </div>
-        </div>
-      </section>
-
-    <!-- !FOOTER -->
-    
-	  <footer class="footer">
-		  <div class="container footer-container">
-
-			<div class="social-media">
-				<ul class="list">
-					<li class="list-item">
-						<a href="" class="list-link">
-							<i class="bx bxl-github"></i>
-						</a>
-					</li>
-					<li class="list-item">
-						<a href="" class="list-link">
-							<i class="bx bxl-linkedin"></i>
-						</a>
-					</li>
-				</ul>
-			</div>
-
-			<span>&copy; 2022. All rights reserved</span>
-
-			<a href="#home" class="scroll-top">
-				<i class="bx bx-chevron-up"></i> Back to top
-			</a>
-		  </div>
-	  </footer>
-
-    <!-- !MY SCRIPT -->
-    <script src="./assets/js/app.js"></script>
+    <a href="#home" class="scroll-top">
+      <i class="bx bx-chevron-up"></i> Back to top
+    </a>
+    </div>
+  </footer>
 </body>
 </html>
