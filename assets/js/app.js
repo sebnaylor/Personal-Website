@@ -49,19 +49,19 @@ themeToggleButton.addEventListener('click', toggleTheme)
 
 const sr = ScrollReveal({
     distance: '50px',
-    duration: 1500,
+    duration: 1000,
     easing: 'cubic-bezier(0.68, -0.55, 0.265, 1.55)'
 })
 
 sr.reveal('.main-title', {origin: 'top'})
 sr.reveal('.scroll-reveal-left', {origin: 'left'})
 sr.reveal('.scroll-reveal-right', {origin: 'right'})
-sr.reveal('.tech-stack-item', {interval: 250})
-sr.reveal(`.section-title, .section-subtitle-container`, {
+sr.reveal('.tech-stack-item', {interval: 175})
+sr.reveal(`.section-title, .section-subtitle-container, .cv`, {
     origin: 'top',
     interval: 250
 })
-sr.reveal('.portfolio-card', {interval: 500})
+sr.reveal('.portfolio-card', {interval: 250})
 sr.reveal(`.form-container, .footer`, {
     origin: 'top',
 })
